@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UnicarEJFW</string>
+    <string name="title_home">Caronas</string>
+    <string name="title_finder">Procurar</string>
+    <string name="title_add">Oferecer</string>
+    <string name="title_msg">Mensagens</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="btn_hist">Caronas anteriores</string>
+    <string name="title_start">Qual o próximo destino?</string>
+</resources>
