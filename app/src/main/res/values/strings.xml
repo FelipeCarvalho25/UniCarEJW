@@ -7,4 +7,13 @@
     <string name="title_perfil">Perfil</string>
     <string name="btn_hist">Caronas anteriores</string>
     <string name="title_start">Qual o próximo destino?</string>
+    <string name="btn_save_cad">Cadastrar</string>
+    <string name="title_codAlun">Código de Aluno (UNIVALI):</string>
+    <string name="title_NomeAlu">Nome:</string>
+    <string name="title_EmailAlu">E-mail:</string>
+    <string name="title_NumAlu">Número:</string>
+    <string name="title_ConfirmPAss">Pra ter certeza:</string>
+    <string name="title_Pass">Senha:</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cadastrar">Cadastro</string>
 </resources>
