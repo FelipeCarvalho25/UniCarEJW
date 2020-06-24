@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/walpaper2"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:paddingBottom="60dp">
 
     <Button
         android:id="@+id/button4"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="62dp"
         android:background="@drawable/imageboton"
         android:text="@string/btn_hist"
