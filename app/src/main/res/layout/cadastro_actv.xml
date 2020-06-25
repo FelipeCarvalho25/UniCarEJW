@@ -176,9 +176,12 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:background="#040303"
         android:text="@string/btn_save_cad"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -16,4 +16,15 @@
     <string name="title_Pass">Senha:</string>
     <string name="btn_login">Login</string>
     <string name="btn_cadastrar">Cadastro</string>
+    <string name="title_btn_default_date">Hoje, 8:00</string>
+    <string name="title_btn_default_passageiros">2 passageiros</string>
+    <string name="hint_finder_de">De Univali BC</string>
+    <string name="hint_finder_para">Para Rua 2020, Centro</string>
+    <string name="title_btn_finder">Procurar</string>
+    <string name="title_finder_welcome">Para onde vamos?</string>
+    <string name="title_add_welcome">De onde você vai sair?</string>
+    <string name="btn_localiza">Usar localização atual</string>
+    <string name="hint_add_localiz">Ex.: Itajaí Shopping</string>
+    <string name="tabitem1">Chats</string>
+    <string name="tabitem2">Notificações</string>
 </resources>

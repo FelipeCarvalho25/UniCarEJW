@@ -9,14 +9,14 @@ import androidx.fragment.app.Fragment;
 
 import com.example.unicarejfw.R;
 
-public class Tab1Fragment extends Fragment {
+public class Tab2Fragment extends Fragment {
 
-    public static Tab1Fragment newInstance() {
-        Tab1Fragment fragment = new Tab1Fragment();
+    public static Tab2Fragment newInstance() {
+        Tab2Fragment fragment = new Tab2Fragment();
         return fragment;
     }
 
-    public Tab1Fragment() {
+    public Tab2Fragment() {
         // Deve existir um construtor vazio
         // na classe que estende um Fragment
     }
@@ -32,7 +32,7 @@ public class Tab1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.tab1fragment, container, false);
+        return inflater.inflate(R.layout.tab2fragment, container, false);
     }
 
 }
