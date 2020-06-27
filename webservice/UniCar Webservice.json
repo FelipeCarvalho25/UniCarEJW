@@ -1,0 +1,533 @@
+{
+	"id": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+	"name": "UniCar Webservice",
+	"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+	"order": [],
+	"folders": [
+		{
+			"name": "Campus",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"4eea6e46-cb81-660b-0a5d-066ca997f902",
+				"d2205196-b537-6d25-e290-5586de70403b"
+			],
+			"owner": "11866886",
+			"folder": "e1f72a02-e299-72c1-9c4d-e24560226063",
+			"folders_order": [],
+			"id": "9cf1f355-9d4a-ea60-1240-70a05965f92b"
+		},
+		{
+			"name": "Cidade",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"ca5edad8-766a-4f40-74bf-8e6cd7bc5424",
+				"0b2b0a1a-4558-8450-a4b3-36acd3c28ff9"
+			],
+			"owner": "11866886",
+			"folder": "e1f72a02-e299-72c1-9c4d-e24560226063",
+			"folders_order": [],
+			"id": "bf50bc51-78c5-9c1a-b405-d774c16ba9dc"
+		},
+		{
+			"name": "local",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [],
+			"owner": "11866886",
+			"folders_order": [
+				"bf50bc51-78c5-9c1a-b405-d774c16ba9dc",
+				"9cf1f355-9d4a-ea60-1240-70a05965f92b"
+			],
+			"id": "e1f72a02-e299-72c1-9c4d-e24560226063"
+		},
+		{
+			"name": "mensagem",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"2aa556f2-756e-a9da-c44a-ce7d195b1ca0",
+				"07c0d215-eaed-c308-eb90-7f486b9c3ba7"
+			],
+			"owner": "11866886",
+			"folders_order": [],
+			"id": "59471198-7ce5-083d-6951-485b624aca48"
+		},
+		{
+			"name": "passageiro",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"05c9a3a5-4be7-c597-3e22-72bea5dcb3d5"
+			],
+			"owner": "11866886",
+			"folders_order": [],
+			"id": "3931d9bc-13ef-0f2f-2f7c-3b9f5da11475"
+		},
+		{
+			"name": "user",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"85628c67-7db7-8c33-a4e5-23afb48782c2",
+				"5d1bcc15-4a8b-06cb-f7e7-f4dab9c24fba",
+				"afd9622b-2d02-0045-c0c2-e596e3412d0a",
+				"3d572fba-85a9-50f2-f77f-51595d90559f"
+			],
+			"owner": "11866886",
+			"folders_order": [],
+			"id": "586f7680-67b3-19e7-b05f-5bf7ffa6be10"
+		},
+		{
+			"name": "viagem",
+			"description": "",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"order": [
+				"1aa87829-f681-d4f9-8f85-4fcc1add5925",
+				"5304f234-ad9e-5c7d-69e4-2b3e014b6924",
+				"682ea3b8-5c4a-97f8-0ca0-7e31a28c9121"
+			],
+			"owner": "11866886",
+			"folders_order": [],
+			"id": "a99920ba-15dd-3405-ca75-e74fc9875763"
+		}
+	],
+	"folders_order": [
+		"586f7680-67b3-19e7-b05f-5bf7ffa6be10",
+		"a99920ba-15dd-3405-ca75-e74fc9875763",
+		"e1f72a02-e299-72c1-9c4d-e24560226063",
+		"59471198-7ce5-083d-6951-485b624aca48",
+		"3931d9bc-13ef-0f2f-2f7c-3b9f5da11475"
+	],
+	"timestamp": 1593279185241,
+	"owner": "11866886",
+	"public": false,
+	"requests": [
+		{
+			"id": "05c9a3a5-4be7-c597-3e22-72bea5dcb3d5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/passageiro/passageiro-insert.php",
+			"folder": "3931d9bc-13ef-0f2f-2f7c-3b9f5da11475",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593296059668,
+			"name": "Insert",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"timestamp": null,
+			"rawModeData": "{\r\n\t\"id_viagem\" : 2,\r\n\t\"id_user\" : 1\r\n\r\n}\r\n\r\n"
+		},
+		{
+			"id": "07c0d215-eaed-c308-eb90-7f486b9c3ba7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/mensagem/mensagem-get.php",
+			"folder": "59471198-7ce5-083d-6951-485b624aca48",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593294868730,
+			"name": "Get",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"user_sender\" : 1,\n\t\"user_receiver\" : 2\n}"
+		},
+		{
+			"id": "0b2b0a1a-4558-8450-a4b3-36acd3c28ff9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/local/cidade-insert.php",
+			"folder": "bf50bc51-78c5-9c1a-b405-d774c16ba9dc",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593289068458,
+			"name": "Insert",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "0b2b0a1a-4558-8450-a4b3-36acd3c28ff9",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"nome\" : \"Florianopolis\",\n\t\"uf\" : \"SC\"\n\t\n}"
+		},
+		{
+			"id": "1aa87829-f681-d4f9-8f85-4fcc1add5925",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/viagem/viagem-get.php",
+			"folder": "a99920ba-15dd-3405-ca75-e74fc9875763",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593296614512,
+			"name": "Get",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "1aa87829-f681-d4f9-8f85-4fcc1add5925",
+			"timestamp": null,
+			"rawModeData": "{\r\n\t\"id_user\" : 1\r\n\t\"origem\" : 1,\r\n\t\"destino\" : 4,\r\n\t\"identificacao_campus\" : \"O\"\r\n}\r\n\r\n"
+		},
+		{
+			"id": "2aa556f2-756e-a9da-c44a-ce7d195b1ca0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/mensagem/mensagem-insert.php",
+			"folder": "59471198-7ce5-083d-6951-485b624aca48",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593294834395,
+			"name": "Insert",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "2aa556f2-756e-a9da-c44a-ce7d195b1ca0",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"user_sender\" : 1,\n\t\"user_receiver\" : 2,\n\t\"msg\" : \"Wagner Lopes\"\n}"
+		},
+		{
+			"id": "3d572fba-85a9-50f2-f77f-51595d90559f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/user/user-change.php",
+			"folder": "586f7680-67b3-19e7-b05f-5bf7ffa6be10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593285374077,
+			"name": "Change",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "3d572fba-85a9-50f2-f77f-51595d90559f",
+			"timestamp": null,
+			"rawModeData": "{\r\n\t\"id\" : 1,\r\n\t\"nome\" : \"Wagner Lopes\",\r\n\t\"pass_w\" : \"321123\",\r\n\t\"email\" : \"teste2@hotmail.com\",\r\n\t\"idade\" : 19,\r\n\t\"sobre\" : \"testesobreee\",\r\n\t\"documentacao_enviada\" : \"S\",\r\n\t\"campus\" : 1,\r\n\t\"foto\" : \"\",\r\n\t\"curso\" : \"Ciência da Computação\",\r\n\t\"numero_telefone\" : \"48999184656\"\r\n}\r\n\r\n"
+		},
+		{
+			"id": "4eea6e46-cb81-660b-0a5d-066ca997f902",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/local/campus-get.php",
+			"folder": "9cf1f355-9d4a-ea60-1240-70a05965f92b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593288332867,
+			"name": "Get",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "4eea6e46-cb81-660b-0a5d-066ca997f902",
+			"timestamp": null,
+			"rawModeData": ""
+		},
+		{
+			"id": "5304f234-ad9e-5c7d-69e4-2b3e014b6924",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/viagem/viagem-insert.php",
+			"folder": "a99920ba-15dd-3405-ca75-e74fc9875763",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593296615955,
+			"name": "Insert",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"timestamp": null,
+			"rawModeData": "{\r\n\t\"id_user_criacao\" : 1,\r\n\t\"quant_passageiro\" : 2,\r\n\t\"data_partida\" : \"2020-06-27 14:00:00\",\r\n\t\"origem\" : 1,\r\n\t\"destino\" : 2,\r\n\t\"identificacao_campus\" : \"O\"\r\n}\r\n\r\n"
+		},
+		{
+			"id": "5d1bcc15-4a8b-06cb-f7e7-f4dab9c24fba",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/user/user-get.php",
+			"folder": "586f7680-67b3-19e7-b05f-5bf7ffa6be10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593281864445,
+			"name": "GetUser",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "5d1bcc15-4a8b-06cb-f7e7-f4dab9c24fba",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"id\" : 1\n}\n\n"
+		},
+		{
+			"id": "682ea3b8-5c4a-97f8-0ca0-7e31a28c9121",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/viagem/viagem-change.php",
+			"folder": "a99920ba-15dd-3405-ca75-e74fc9875763",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1593296881119,
+			"name": "Change",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"rawModeData": "{\r\n\t\"id_viagem\" : 1,\r\n\t\"quant_passageiro\" : 2,\r\n\t\"data_partida\" : \"2020-06-27 14:00:00\",\r\n\t\"origem\" : 1,\r\n\t\"destino\" : 2,\r\n\t\"identificacao_campus\" : \"O\",\r\n\t\"status\" : \"F\"\r\n}\r\n\r\n"
+		},
+		{
+			"id": "85628c67-7db7-8c33-a4e5-23afb48782c2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/user/user-register.php",
+			"folder": "586f7680-67b3-19e7-b05f-5bf7ffa6be10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593281132507,
+			"name": "Register",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "85628c67-7db7-8c33-a4e5-23afb48782c2",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"nome\" : \"Wagner Lopes\",\n\t\"idade\" : 18,\n\t\"pass_w\" : \"123321\",\n\t\"email\"  : \"teste@hotmail.com\",\n\t\"numero_telefone\" : \"4899148656\"\n}\n\n"
+		},
+		{
+			"id": "afd9622b-2d02-0045-c0c2-e596e3412d0a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/user/user-login.php",
+			"folder": "586f7680-67b3-19e7-b05f-5bf7ffa6be10",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593281827320,
+			"name": "Login",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "afd9622b-2d02-0045-c0c2-e596e3412d0a",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"pass_w\" : \"123321\",\n\t\"email\"  : \"teste@hotmail.com\"\n}\n\n"
+		},
+		{
+			"id": "ca5edad8-766a-4f40-74bf-8e6cd7bc5424",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/local/cidade-get.php",
+			"folder": "bf50bc51-78c5-9c1a-b405-d774c16ba9dc",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593288360664,
+			"name": "Get",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "ca5edad8-766a-4f40-74bf-8e6cd7bc5424",
+			"timestamp": null,
+			"rawModeData": ""
+		},
+		{
+			"id": "d2205196-b537-6d25-e290-5586de70403b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8080/UniCar/webservice/local/campus-insert.php",
+			"folder": "9cf1f355-9d4a-ea60-1240-70a05965f92b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1593294735578,
+			"name": "Insert",
+			"collectionId": "cf036f42-a5c9-9434-1217-4c353a4dd471",
+			"isFromCollection": true,
+			"collectionRequestId": "d2205196-b537-6d25-e290-5586de70403b",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"id_cidade\" : 1,\n\t\"rua\" : \"Rua teste\",\n\t\"bairro\" : \"TesteBairro\",\n\t\"numero\" : \"103\"\n}"
+		}
+	]
+}
