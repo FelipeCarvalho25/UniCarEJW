@@ -12,7 +12,7 @@
         android:id="@+id/button4"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="65dp"
         android:background="@drawable/imageboton"
         android:text="@string/btn_hist"
         android:textAlignment="textStart"

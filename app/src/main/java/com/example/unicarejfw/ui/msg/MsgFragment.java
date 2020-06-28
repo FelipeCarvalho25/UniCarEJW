@@ -29,7 +29,7 @@ public class MsgFragment extends Fragment {
         TabLayout tabs = (TabLayout) root.findViewById(R.id.tabLay);
         ViewPager pager = (ViewPager) root.findViewById(R.id.vpager);
         FragmentManager fragMan = getFragmentManager();
-        TabsAdapter adapter = new TabsAdapter(fragMan);
+        TabsAdapterMsg adapter = new TabsAdapterMsg(fragMan);
 
         pager.setAdapter(adapter);
         tabs.setupWithViewPager(pager);

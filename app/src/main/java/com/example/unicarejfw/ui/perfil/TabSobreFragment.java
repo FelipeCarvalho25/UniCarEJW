@@ -1,4 +1,4 @@
-package com.example.unicarejfw.ui.msg;
+package com.example.unicarejfw.ui.perfil;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,14 +9,14 @@ import androidx.fragment.app.Fragment;
 
 import com.example.unicarejfw.R;
 
-public class Tab1Fragment extends Fragment {
+public class TabSobreFragment extends Fragment {
 
-    public static Tab1Fragment newInstance() {
-        Tab1Fragment fragment = new Tab1Fragment();
+    public static TabSobreFragment newInstance() {
+        TabSobreFragment fragment = new TabSobreFragment();
         return fragment;
     }
 
-    public Tab1Fragment() {
+    public TabSobreFragment() {
         // Deve existir um construtor vazio
         // na classe que estende um Fragment
     }
@@ -32,7 +32,7 @@ public class Tab1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.tab1fragment, container, false);
+        return inflater.inflate(R.layout.tab_sobre_fragment, container, false);
     }
 
 }

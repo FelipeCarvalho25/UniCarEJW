@@ -27,4 +27,10 @@
     <string name="hint_add_localiz">Ex.: Itajaí Shopping</string>
     <string name="tabitem1">Chats</string>
     <string name="tabitem2">Notificações</string>
+    <string name="tabitem3">Sobre</string>
+    <string name="tabitem4">Dados</string>
+    <string name="editar_foto">Editar Foto</string>
+    <string name="editar_config">Editar Configurações</string>
+    <string name="nome_user">Usuário</string>
+
 </resources>

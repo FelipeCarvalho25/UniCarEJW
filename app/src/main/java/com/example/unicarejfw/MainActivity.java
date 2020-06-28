@@ -2,16 +2,13 @@ package com.example.unicarejfw;
 
 import android.os.Bundle;
 
-import com.example.unicarejfw.ui.msg.TabsAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.tabs.TabLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends AppCompatActivity {
 
