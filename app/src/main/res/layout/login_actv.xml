@@ -18,14 +18,14 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/et_cod_aluno"
         android:layout_width="370dp"
         android:layout_height="44dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="64dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/et_senha_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/et_senha_login"
         android:layout_width="370dp"
         android:layout_height="44dp"
         android:layout_marginTop="192dp"
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_codAlun"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/et_cod_aluno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,15 +63,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_Pass"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/et_senha_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/et_cod_aluno"
         app:layout_constraintVertical_bias="0.755" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_cadastro"
         style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
         android:layout_width="122dp"
         android:layout_height="48dp"
@@ -82,11 +82,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/et_senha_login"
         app:layout_constraintVertical_bias="0.188" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_login"
         style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
         android:layout_width="122dp"
         android:layout_height="48dp"
@@ -97,6 +97,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/et_senha_login"
         app:layout_constraintVertical_bias="0.188" />
 </androidx.constraintlayout.widget.ConstraintLayout>
