@@ -65,8 +65,8 @@ public class CadUserActv extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Por favor, informe o celular!", Toast.LENGTH_LONG).show();
         } else if (confirmSenha.equals("")) {
             Toast.makeText(getApplicationContext(), "Por favor, confirme a senha!", Toast.LENGTH_LONG).show();
-        /*}else if (senha!=confirmSenha) {
-            Toast.makeText(getApplicationContext(), "As senhas devem ser iguais!", Toast.LENGTH_LONG).show();*/
+        }else if (!senha.equals(confirmSenha)) {
+            Toast.makeText(getApplicationContext(), "As senhas devem ser iguais!" + senha + " " + confirmSenha, Toast.LENGTH_LONG).show();
         }else{
             try {
                 JSONObject jsonParam = new JSONObject();
@@ -80,6 +80,9 @@ public class CadUserActv extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Usuário cadastrado!", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(getApplicationContext(), LoginActv.class);
                     startActivity(i);
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "sem conexão", Toast.LENGTH_LONG).show();
                 }
             } catch (InterruptedException | ExecutionException | JSONException e) {
                 e.printStackTrace();
