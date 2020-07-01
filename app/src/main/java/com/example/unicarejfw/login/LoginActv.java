@@ -60,11 +60,16 @@ public class LoginActv extends AppCompatActivity {
                 jsonParam.put("id", codAluno);
                 jsonParam.put("pass_w", senha);
                 DadosUser user = new GetService(jsonParam.toString(), "http://localhost:8080/UniCar/webservice/user/user-login.php" ).execute().get();
-                if (user.getId()!=codAluno){
-                    Toast.makeText(getApplicationContext(), "Não foi possível logar favor verifique o login e senha!", Toast.LENGTH_LONG).show();
+                if ( user == null){
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(i);
+                }else{
+                    if (user.getId()!=codAluno){
+                        Toast.makeText(getApplicationContext(), "Não foi possível logar favor verifique o login e senha!", Toast.LENGTH_LONG).show();
+                    }
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(i);
                 }
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(i);
             } catch (ExecutionException | InterruptedException | JSONException e) {
                 e.printStackTrace();
             }
