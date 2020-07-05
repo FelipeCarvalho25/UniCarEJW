@@ -32,5 +32,6 @@
     <string name="editar_foto">Editar Foto</string>
     <string name="editar_config">Editar Configurações</string>
     <string name="nome_user">Jeremias</string>
+    <string name="activity_auxiliar">Activity Auxiliar</string>
 
 </resources>
