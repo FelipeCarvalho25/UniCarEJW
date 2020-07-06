@@ -20,7 +20,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.unicarejfw.ui.perfil.PerfilFragment;
+import com.example.unicarejfw.ui.perfil.PerfilViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-
+        criarNotificacao(getCurrentFocus());
     }
 
     public void criarNotificacao(View view) {
@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
             nm.createNotificationChannel(canal);
         }
 
-        Intent i = new Intent(this, PerfilFragment.class);
+        Intent i = new Intent(this, PerfilViewModel.class);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent p = PendingIntent.getActivity(this, 0, i, 0);
         NotificationCompat.Builder builder =
                 new NotificationCompat.Builder(this, CHANNEL_ID)
                         .setSmallIcon(R.drawable.ic_launcher_foreground)
                         .setContentTitle("Unicar")
-                        .setContentText("Toque para abrir seu perfil!")
+                        .setContentText("Bem vindo ao Unicar, caso queira procurar caronas vá no menu procurar, caso queira oferecer vá no menu oferecer. Para onde vamos?")
                         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                         .setAutoCancel(true)
                         .setContentIntent(p);
