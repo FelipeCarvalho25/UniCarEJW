@@ -33,5 +33,13 @@
     <string name="editar_config">Editar Configurações</string>
     <string name="nome_user">Jeremias</string>
     <string name="activity_auxiliar">Activity Auxiliar</string>
+    <string name="hint_login_user">Código de aluno ou e-mail</string>
+    <string name="hint_login_senha">Senha</string>
+    <string name="hint_cad_cod">Código de aluno</string>
+    <string name="hint_cad_nome">Nome</string>
+    <string name="hint_cad_email">E-mail</string>
+    <string name="hint_cad_numero">Número</string>
+    <string name="hint_cad_senha">Senha</string>
+    <string name="hint_cad_confirm">Confirmar senha</string>
 
 </resources>
